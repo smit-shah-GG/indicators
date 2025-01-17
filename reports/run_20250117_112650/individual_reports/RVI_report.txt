@@ -1,0 +1,29 @@
+
+=== Optimization Report for RVI ===
+
+Best Parameters:
+timeperiod: 10
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0082
+returns_corr (Correlation with returns): 0.2756
+IC (Information Coefficient (predictive power)): -0.0392
+signal_noise_ratio (Signal-to-Noise Ratio): 2.6600
+ac_lag_1: 0.8709
+ac_lag_5: 0.4612
+ac_lag_10: -0.0090
+ac_lag_20: -0.0296
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.0407
+volatility (Indicator Volatility): 19.2002
+skewness (Distribution Skewness): -0.0013
+kurtosis (Distribution Kurtosis): -0.4824
+vol_forecast_corr: -0.0640
+vol_regime_accuracy: 0.4895
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10 -0.0082  NaN
+timeperiod:15 -0.0068  NaN
+timeperiod:20 -0.0058  NaN
+timeperiod:25 -0.0054  NaN

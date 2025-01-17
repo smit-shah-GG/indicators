@@ -1,0 +1,75 @@
+
+=== Optimization Report for KELTNER ===
+
+Best Parameters:
+timeperiod: 10
+atr_period: 25
+multiplier: 2.0
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0107
+returns_corr (Correlation with returns): 0.5092
+IC (Information Coefficient (predictive power)): -0.0544
+signal_noise_ratio (Signal-to-Noise Ratio): 2.2903
+ac_lag_1: 0.8151
+ac_lag_5: 0.3763
+ac_lag_10: 0.1560
+ac_lag_20: 0.0152
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.0357
+volatility (Indicator Volatility): 0.2225
+skewness (Distribution Skewness): 0.0369
+kurtosis (Distribution Kurtosis): 2.8343
+vol_forecast_corr: -0.0579
+vol_regime_accuracy: 0.4963
+
+Parameter Sensitivity Analysis:
+                                              mean  std
+param_str                                              
+timeperiod:10_atr_period:10_multiplier:1.5 -0.0081  NaN
+timeperiod:10_atr_period:10_multiplier:2.0 -0.0081  NaN
+timeperiod:10_atr_period:10_multiplier:2.5 -0.0081  NaN
+timeperiod:10_atr_period:15_multiplier:1.5 -0.0097  NaN
+timeperiod:10_atr_period:15_multiplier:2.0 -0.0097  NaN
+timeperiod:10_atr_period:15_multiplier:2.5 -0.0097  NaN
+timeperiod:10_atr_period:20_multiplier:1.5 -0.0103  NaN
+timeperiod:10_atr_period:20_multiplier:2.0 -0.0103  NaN
+timeperiod:10_atr_period:20_multiplier:2.5 -0.0103  NaN
+timeperiod:10_atr_period:25_multiplier:1.5 -0.0107  NaN
+timeperiod:10_atr_period:25_multiplier:2.0 -0.0107  NaN
+timeperiod:10_atr_period:25_multiplier:2.5 -0.0107  NaN
+timeperiod:15_atr_period:10_multiplier:1.5 -0.0060  NaN
+timeperiod:15_atr_period:10_multiplier:2.0 -0.0060  NaN
+timeperiod:15_atr_period:10_multiplier:2.5 -0.0060  NaN
+timeperiod:15_atr_period:15_multiplier:1.5 -0.0086  NaN
+timeperiod:15_atr_period:15_multiplier:2.0 -0.0086  NaN
+timeperiod:15_atr_period:15_multiplier:2.5 -0.0086  NaN
+timeperiod:15_atr_period:20_multiplier:1.5 -0.0097  NaN
+timeperiod:15_atr_period:20_multiplier:2.0 -0.0097  NaN
+timeperiod:15_atr_period:20_multiplier:2.5 -0.0097  NaN
+timeperiod:15_atr_period:25_multiplier:1.5 -0.0105  NaN
+timeperiod:15_atr_period:25_multiplier:2.0 -0.0105  NaN
+timeperiod:15_atr_period:25_multiplier:2.5 -0.0105  NaN
+timeperiod:20_atr_period:10_multiplier:1.5 -0.0041  NaN
+timeperiod:20_atr_period:10_multiplier:2.0 -0.0041  NaN
+timeperiod:20_atr_period:10_multiplier:2.5 -0.0041  NaN
+timeperiod:20_atr_period:15_multiplier:1.5 -0.0073  NaN
+timeperiod:20_atr_period:15_multiplier:2.0 -0.0073  NaN
+timeperiod:20_atr_period:15_multiplier:2.5 -0.0073  NaN
+timeperiod:20_atr_period:20_multiplier:1.5 -0.0090  NaN
+timeperiod:20_atr_period:20_multiplier:2.0 -0.0090  NaN
+timeperiod:20_atr_period:20_multiplier:2.5 -0.0090  NaN
+timeperiod:20_atr_period:25_multiplier:1.5 -0.0101  NaN
+timeperiod:20_atr_period:25_multiplier:2.0 -0.0101  NaN
+timeperiod:20_atr_period:25_multiplier:2.5 -0.0101  NaN
+timeperiod:25_atr_period:10_multiplier:1.5 -0.0026  NaN
+timeperiod:25_atr_period:10_multiplier:2.0 -0.0026  NaN
+timeperiod:25_atr_period:10_multiplier:2.5 -0.0026  NaN
+timeperiod:25_atr_period:15_multiplier:1.5 -0.0062  NaN
+timeperiod:25_atr_period:15_multiplier:2.0 -0.0062  NaN
+timeperiod:25_atr_period:15_multiplier:2.5 -0.0062  NaN
+timeperiod:25_atr_period:20_multiplier:1.5 -0.0083  NaN
+timeperiod:25_atr_period:20_multiplier:2.0 -0.0083  NaN
+timeperiod:25_atr_period:20_multiplier:2.5 -0.0083  NaN
+timeperiod:25_atr_period:25_multiplier:1.5 -0.0096  NaN
+timeperiod:25_atr_period:25_multiplier:2.0 -0.0096  NaN
+timeperiod:25_atr_period:25_multiplier:2.5 -0.0096  NaN

@@ -1,0 +1,29 @@
+
+=== Optimization Report for TRIX ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.0094
+returns_corr (Correlation with returns): -0.0027
+IC (Information Coefficient (predictive power)): 0.0024
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0462
+ac_lag_1: 0.9989
+ac_lag_5: 0.9736
+ac_lag_10: 0.9023
+ac_lag_20: 0.6894
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.2947
+volatility (Indicator Volatility): 0.0951
+skewness (Distribution Skewness): -0.7180
+kurtosis (Distribution Kurtosis): 5.8538
+trend_capture: 0.2716
+trend_persistence: 0.9830
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.0081  NaN
+timeperiod:15  0.0088  NaN
+timeperiod:20  0.0089  NaN
+timeperiod:25  0.0094  NaN

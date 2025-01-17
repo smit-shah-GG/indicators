@@ -1,0 +1,29 @@
+
+=== Optimization Report for DPO ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.0326
+returns_corr (Correlation with returns): 0.1833
+IC (Information Coefficient (predictive power)): -0.0306
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0112
+ac_lag_1: 0.9742
+ac_lag_5: 0.8529
+ac_lag_10: 0.6648
+ac_lag_20: 0.2443
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1453
+volatility (Indicator Volatility): 1228.7885
+skewness (Distribution Skewness): -0.5339
+kurtosis (Distribution Kurtosis): 6.3591
+mean_rev_efficiency: -0.9742
+extreme_accuracy: 0.0334
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.0211  NaN
+timeperiod:15  0.0255  NaN
+timeperiod:20  0.0297  NaN
+timeperiod:25  0.0326  NaN

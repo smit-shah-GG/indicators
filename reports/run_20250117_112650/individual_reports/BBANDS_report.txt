@@ -1,0 +1,36 @@
+
+=== Optimization Report for BBANDS ===
+
+Best Parameters:
+timeperiod: 25
+nbdev: 2.0
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0184
+returns_corr (Correlation with returns): 0.3656
+IC (Information Coefficient (predictive power)): -0.0428
+signal_noise_ratio (Signal-to-Noise Ratio): 1.5169
+ac_lag_1: 0.8789
+ac_lag_5: 0.5412
+ac_lag_10: 0.2851
+ac_lag_20: -0.0015
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.0563
+volatility (Indicator Volatility): 0.3400
+skewness (Distribution Skewness): -0.0897
+kurtosis (Distribution Kurtosis): -0.4100
+
+Parameter Sensitivity Analysis:
+                           mean  std
+param_str                           
+timeperiod:10_nbdev:1.5 -0.0149  NaN
+timeperiod:10_nbdev:2.0 -0.0149  NaN
+timeperiod:10_nbdev:2.5 -0.0149  NaN
+timeperiod:15_nbdev:1.5 -0.0158  NaN
+timeperiod:15_nbdev:2.0 -0.0158  NaN
+timeperiod:15_nbdev:2.5 -0.0158  NaN
+timeperiod:20_nbdev:1.5 -0.0169  NaN
+timeperiod:20_nbdev:2.0 -0.0169  NaN
+timeperiod:20_nbdev:2.5 -0.0169  NaN
+timeperiod:25_nbdev:1.5 -0.0184  NaN
+timeperiod:25_nbdev:2.0 -0.0184  NaN
+timeperiod:25_nbdev:2.5 -0.0184  NaN

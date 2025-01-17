@@ -1,0 +1,33 @@
+
+=== Optimization Report for CMF ===
+
+Best Parameters:
+fastperiod: 4
+slowperiod: 12
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0218
+returns_corr (Correlation with returns): 0.1765
+IC (Information Coefficient (predictive power)): -0.0314
+signal_noise_ratio (Signal-to-Noise Ratio): 0.1291
+ac_lag_1: 0.9550
+ac_lag_5: 0.5988
+ac_lag_10: 0.2972
+ac_lag_20: 0.0871
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.0653
+volatility (Indicator Volatility): 11413.3326
+skewness (Distribution Skewness): -0.9984
+kurtosis (Distribution Kurtosis): 16.7674
+
+Parameter Sensitivity Analysis:
+                              mean  std
+param_str                              
+fastperiod:2_slowperiod:10 -0.0186  NaN
+fastperiod:2_slowperiod:12 -0.0201  NaN
+fastperiod:2_slowperiod:8  -0.0168  NaN
+fastperiod:3_slowperiod:10 -0.0195  NaN
+fastperiod:3_slowperiod:12 -0.0210  NaN
+fastperiod:3_slowperiod:8  -0.0179  NaN
+fastperiod:4_slowperiod:10 -0.0204  NaN
+fastperiod:4_slowperiod:12 -0.0218  NaN
+fastperiod:4_slowperiod:8  -0.0189  NaN

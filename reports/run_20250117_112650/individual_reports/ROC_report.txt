@@ -1,0 +1,28 @@
+
+=== Optimization Report for ROC ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.0084
+returns_corr (Correlation with returns): 0.1892
+IC (Information Coefficient (predictive power)): -0.0326
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0471
+ac_lag_1: 0.9561
+ac_lag_5: 0.7862
+ac_lag_10: 0.5845
+ac_lag_20: 0.1593
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1148
+volatility (Indicator Volatility): 3.9370
+skewness (Distribution Skewness): -0.2803
+kurtosis (Distribution Kurtosis): 7.2557
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.0051  NaN
+timeperiod:15  0.0069  NaN
+timeperiod:20  0.0077  NaN
+timeperiod:25  0.0084  NaN
+timeperiod:5   0.0036  NaN

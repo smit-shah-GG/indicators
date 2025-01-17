@@ -1,0 +1,33 @@
+
+=== Optimization Report for PSAR ===
+
+Best Parameters:
+acceleration: 0.03
+maximum: 0.3
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.9986
+returns_corr (Correlation with returns): -0.0152
+IC (Information Coefficient (predictive power)): -0.0101
+signal_noise_ratio (Signal-to-Noise Ratio): 1.7023
+ac_lag_1: 0.9998
+ac_lag_5: 0.9986
+ac_lag_10: 0.9974
+ac_lag_20: 0.9960
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1857
+volatility (Indicator Volatility): 17305.8064
+skewness (Distribution Skewness): 0.2770
+kurtosis (Distribution Kurtosis): -1.2154
+
+Parameter Sensitivity Analysis:
+                                   mean  std
+param_str                                   
+acceleration:0.025_maximum:0.2   0.9985  NaN
+acceleration:0.025_maximum:0.25  0.9985  NaN
+acceleration:0.025_maximum:0.3   0.9985  NaN
+acceleration:0.02_maximum:0.2    0.9983  NaN
+acceleration:0.02_maximum:0.25   0.9983  NaN
+acceleration:0.02_maximum:0.3    0.9983  NaN
+acceleration:0.03_maximum:0.2    0.9986  NaN
+acceleration:0.03_maximum:0.25   0.9986  NaN
+acceleration:0.03_maximum:0.3    0.9986  NaN

@@ -1,0 +1,27 @@
+
+=== Optimization Report for ATR ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.7773
+returns_corr (Correlation with returns): -0.0025
+IC (Information Coefficient (predictive power)): -0.0019
+signal_noise_ratio (Signal-to-Noise Ratio): 1.2750
+ac_lag_1: 0.9992
+ac_lag_5: 0.9926
+ac_lag_10: 0.9820
+ac_lag_20: 0.9590
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.2465
+volatility (Indicator Volatility): 270.5880
+skewness (Distribution Skewness): 1.1195
+kurtosis (Distribution Kurtosis): 1.8348
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.7409  NaN
+timeperiod:15  0.7581  NaN
+timeperiod:20  0.7692  NaN
+timeperiod:25  0.7773  NaN

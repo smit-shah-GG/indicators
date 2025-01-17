@@ -1,0 +1,58 @@
+{
+    "ROC": {
+        "timeperiod": 25
+    },
+    "RSI": {
+        "timeperiod": 25
+    },
+    "BBANDS": {
+        "timeperiod": 25,
+        "nbdev": 2.0
+    },
+    "PSAR": {
+        "acceleration": 0.03,
+        "maximum": 0.3
+    },
+    "ATR": {
+        "timeperiod": 25
+    },
+    "NATR": {
+        "timeperiod": 25
+    },
+    "MFI": {
+        "timeperiod": 25
+    },
+    "CMF": {
+        "fastperiod": 4,
+        "slowperiod": 12
+    },
+    "DMI": {
+        "timeperiod": 25,
+        "adx_period": 10
+    },
+    "PPO": {
+        "fastperiod": 14,
+        "slowperiod": 35,
+        "matype": 1
+    },
+    "CCI": {
+        "timeperiod": 25
+    },
+    "KELTNER": {
+        "timeperiod": 10,
+        "atr_period": 25,
+        "multiplier": 2.0
+    },
+    "RVI": {
+        "timeperiod": 10
+    },
+    "TRIX": {
+        "timeperiod": 25
+    },
+    "DPO": {
+        "timeperiod": 25
+    },
+    "VWAP": {
+        "timeperiod": 25
+    }
+}

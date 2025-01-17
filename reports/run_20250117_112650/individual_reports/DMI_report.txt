@@ -1,0 +1,42 @@
+
+=== Optimization Report for DMI ===
+
+Best Parameters:
+timeperiod: 25
+adx_period: 10
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0129
+returns_corr (Correlation with returns): 0.1627
+IC (Information Coefficient (predictive power)): -0.0081
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0768
+ac_lag_1: 0.9750
+ac_lag_5: 0.8569
+ac_lag_10: 0.7233
+ac_lag_20: 0.4931
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1606
+volatility (Indicator Volatility): 12.1627
+skewness (Distribution Skewness): 0.0502
+kurtosis (Distribution Kurtosis): 0.6056
+trend_capture: 0.2336
+trend_persistence: 0.9477
+
+Parameter Sensitivity Analysis:
+                               mean  std
+param_str                               
+timeperiod:10_adx_period:10 -0.0072  NaN
+timeperiod:10_adx_period:15 -0.0072  NaN
+timeperiod:10_adx_period:20 -0.0072  NaN
+timeperiod:10_adx_period:25 -0.0072  NaN
+timeperiod:15_adx_period:10 -0.0091  NaN
+timeperiod:15_adx_period:15 -0.0091  NaN
+timeperiod:15_adx_period:20 -0.0091  NaN
+timeperiod:15_adx_period:25 -0.0091  NaN
+timeperiod:20_adx_period:10 -0.0110  NaN
+timeperiod:20_adx_period:15 -0.0110  NaN
+timeperiod:20_adx_period:20 -0.0110  NaN
+timeperiod:20_adx_period:25 -0.0110  NaN
+timeperiod:25_adx_period:10 -0.0129  NaN
+timeperiod:25_adx_period:15 -0.0129  NaN
+timeperiod:25_adx_period:20 -0.0129  NaN
+timeperiod:25_adx_period:25 -0.0129  NaN

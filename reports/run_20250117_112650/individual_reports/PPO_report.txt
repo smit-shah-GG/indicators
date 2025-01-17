@@ -1,0 +1,59 @@
+
+=== Optimization Report for PPO ===
+
+Best Parameters:
+fastperiod: 14
+slowperiod: 35
+matype: 1
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.0099
+returns_corr (Correlation with returns): 0.0439
+IC (Information Coefficient (predictive power)): -0.0106
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0304
+ac_lag_1: 0.9959
+ac_lag_5: 0.9256
+ac_lag_10: 0.7808
+ac_lag_20: 0.4727
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.2054
+volatility (Indicator Volatility): 1.1771
+skewness (Distribution Skewness): -1.0241
+kurtosis (Distribution Kurtosis): 9.9349
+trend_capture: 0.2670
+trend_persistence: 0.9724
+
+Parameter Sensitivity Analysis:
+                                        mean  std
+param_str                                        
+fastperiod:11_slowperiod:20_matype:0  0.0064  NaN
+fastperiod:11_slowperiod:20_matype:1  0.0083  NaN
+fastperiod:11_slowperiod:25_matype:0  0.0073  NaN
+fastperiod:11_slowperiod:25_matype:1  0.0088  NaN
+fastperiod:11_slowperiod:30_matype:0  0.0077  NaN
+fastperiod:11_slowperiod:30_matype:1  0.0093  NaN
+fastperiod:11_slowperiod:35_matype:0  0.0080  NaN
+fastperiod:11_slowperiod:35_matype:1  0.0096  NaN
+fastperiod:14_slowperiod:20_matype:0  0.0066  NaN
+fastperiod:14_slowperiod:20_matype:1  0.0086  NaN
+fastperiod:14_slowperiod:25_matype:0  0.0074  NaN
+fastperiod:14_slowperiod:25_matype:1  0.0091  NaN
+fastperiod:14_slowperiod:30_matype:0  0.0078  NaN
+fastperiod:14_slowperiod:30_matype:1  0.0095  NaN
+fastperiod:14_slowperiod:35_matype:0  0.0080  NaN
+fastperiod:14_slowperiod:35_matype:1  0.0099  NaN
+fastperiod:5_slowperiod:20_matype:0   0.0062  NaN
+fastperiod:5_slowperiod:20_matype:1   0.0076  NaN
+fastperiod:5_slowperiod:25_matype:0   0.0070  NaN
+fastperiod:5_slowperiod:25_matype:1   0.0082  NaN
+fastperiod:5_slowperiod:30_matype:0   0.0075  NaN
+fastperiod:5_slowperiod:30_matype:1   0.0087  NaN
+fastperiod:5_slowperiod:35_matype:0   0.0078  NaN
+fastperiod:5_slowperiod:35_matype:1   0.0091  NaN
+fastperiod:8_slowperiod:20_matype:0   0.0062  NaN
+fastperiod:8_slowperiod:20_matype:1   0.0080  NaN
+fastperiod:8_slowperiod:25_matype:0   0.0071  NaN
+fastperiod:8_slowperiod:25_matype:1   0.0085  NaN
+fastperiod:8_slowperiod:30_matype:0   0.0076  NaN
+fastperiod:8_slowperiod:30_matype:1   0.0090  NaN
+fastperiod:8_slowperiod:35_matype:0   0.0078  NaN
+fastperiod:8_slowperiod:35_matype:1   0.0094  NaN

@@ -1,0 +1,27 @@
+
+=== Optimization Report for NATR ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.1495
+returns_corr (Correlation with returns): -0.0122
+IC (Information Coefficient (predictive power)): 0.0122
+signal_noise_ratio (Signal-to-Noise Ratio): 1.8322
+ac_lag_1: 0.9976
+ac_lag_5: 0.9803
+ac_lag_10: 0.9532
+ac_lag_20: 0.8854
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.2544
+volatility (Indicator Volatility): 0.6087
+skewness (Distribution Skewness): 3.1644
+kurtosis (Distribution Kurtosis): 19.5677
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.1339  NaN
+timeperiod:15  0.1406  NaN
+timeperiod:20  0.1456  NaN
+timeperiod:25  0.1495  NaN

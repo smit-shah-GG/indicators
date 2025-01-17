@@ -1,0 +1,27 @@
+
+=== Optimization Report for RSI ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0106
+returns_corr (Correlation with returns): 0.2486
+IC (Information Coefficient (predictive power)): -0.0235
+signal_noise_ratio (Signal-to-Noise Ratio): 5.2670
+ac_lag_1: 0.9590
+ac_lag_5: 0.8160
+ac_lag_10: 0.6658
+ac_lag_20: 0.4252
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1370
+volatility (Indicator Volatility): 9.6540
+skewness (Distribution Skewness): 0.0021
+kurtosis (Distribution Kurtosis): 0.1694
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10 -0.0069  NaN
+timeperiod:15 -0.0079  NaN
+timeperiod:20 -0.0092  NaN
+timeperiod:25 -0.0106  NaN

@@ -1,0 +1,27 @@
+
+=== Optimization Report for MFI ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): -0.0054
+returns_corr (Correlation with returns): 0.1112
+IC (Information Coefficient (predictive power)): -0.0232
+signal_noise_ratio (Signal-to-Noise Ratio): 3.4879
+ac_lag_1: 0.9694
+ac_lag_5: 0.7967
+ac_lag_10: 0.5851
+ac_lag_20: 0.1652
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.1221
+volatility (Indicator Volatility): 14.2773
+skewness (Distribution Skewness): 0.0486
+kurtosis (Distribution Kurtosis): -0.4568
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.0037  NaN
+timeperiod:15  0.0009  NaN
+timeperiod:20 -0.0027  NaN
+timeperiod:25 -0.0054  NaN

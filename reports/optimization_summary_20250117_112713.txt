@@ -1,0 +1,113 @@
+=== Optimization Summary ===
+
+
+ROC:
+Plot: reports/run_20250117_112650/plots/ROC_optimization.png
+Report: reports/run_20250117_112650/individual_reports/ROC_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.0084
+
+
+RSI:
+Plot: reports/run_20250117_112650/plots/RSI_optimization.png
+Report: reports/run_20250117_112650/individual_reports/RSI_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: -0.0069
+
+
+BBANDS:
+Plot: reports/run_20250117_112650/plots/BBANDS_optimization.png
+Report: reports/run_20250117_112650/individual_reports/BBANDS_report.txt
+Best parameters: {'timeperiod': 25, 'nbdev': 2.0}
+Best score: -0.0149
+
+
+PSAR:
+Plot: reports/run_20250117_112650/plots/PSAR_optimization.png
+Report: reports/run_20250117_112650/individual_reports/PSAR_report.txt
+Best parameters: {'acceleration': 0.03, 'maximum': 0.3}
+Best score: 0.9986
+
+
+ATR:
+Plot: reports/run_20250117_112650/plots/ATR_optimization.png
+Report: reports/run_20250117_112650/individual_reports/ATR_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.7773
+
+
+NATR:
+Plot: reports/run_20250117_112650/plots/NATR_optimization.png
+Report: reports/run_20250117_112650/individual_reports/NATR_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.1495
+
+
+MFI:
+Plot: reports/run_20250117_112650/plots/MFI_optimization.png
+Report: reports/run_20250117_112650/individual_reports/MFI_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.0037
+
+
+CMF:
+Plot: reports/run_20250117_112650/plots/CMF_optimization.png
+Report: reports/run_20250117_112650/individual_reports/CMF_report.txt
+Best parameters: {'fastperiod': 4, 'slowperiod': 12}
+Best score: -0.0168
+
+
+DMI:
+Plot: reports/run_20250117_112650/plots/DMI_optimization.png
+Report: reports/run_20250117_112650/individual_reports/DMI_report.txt
+Best parameters: {'timeperiod': 25, 'adx_period': 10}
+Best score: -0.0072
+
+
+PPO:
+Plot: reports/run_20250117_112650/plots/PPO_optimization.png
+Report: reports/run_20250117_112650/individual_reports/PPO_report.txt
+Best parameters: {'fastperiod': 14, 'slowperiod': 35, 'matype': 1}
+Best score: 0.0099
+
+
+CCI:
+Plot: reports/run_20250117_112650/plots/CCI_optimization.png
+Report: reports/run_20250117_112650/individual_reports/CCI_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: -0.0129
+
+
+KELTNER:
+Plot: reports/run_20250117_112650/plots/KELTNER_optimization.png
+Report: reports/run_20250117_112650/individual_reports/KELTNER_report.txt
+Best parameters: {'timeperiod': 10, 'atr_period': 25, 'multiplier': 2.0}
+Best score: -0.0026
+
+
+RVI:
+Plot: reports/run_20250117_112650/plots/RVI_optimization.png
+Report: reports/run_20250117_112650/individual_reports/RVI_report.txt
+Best parameters: {'timeperiod': 10}
+Best score: -0.0054
+
+
+TRIX:
+Plot: reports/run_20250117_112650/plots/TRIX_optimization.png
+Report: reports/run_20250117_112650/individual_reports/TRIX_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.0094
+
+
+DPO:
+Plot: reports/run_20250117_112650/plots/DPO_optimization.png
+Report: reports/run_20250117_112650/individual_reports/DPO_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.0326
+
+
+VWAP:
+Plot: reports/run_20250117_112650/plots/VWAP_optimization.png
+Report: reports/run_20250117_112650/individual_reports/VWAP_report.txt
+Best parameters: {'timeperiod': 25}
+Best score: 0.0203

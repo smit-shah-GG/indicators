@@ -1,0 +1,27 @@
+
+=== Optimization Report for VWAP ===
+
+Best Parameters:
+timeperiod: 25
+
+Performance Metrics:
+close_corr (Correlation with closing price): 0.0203
+returns_corr (Correlation with returns): 0.3691
+IC (Information Coefficient (predictive power)): -0.0419
+signal_noise_ratio (Signal-to-Noise Ratio): 0.0492
+ac_lag_1: 0.9187
+ac_lag_5: 0.6542
+ac_lag_10: 0.3932
+ac_lag_20: -0.0273
+hurst_exponent (Hurst Exponent (>0.5: trending, <0.5: mean-reverting)): 0.0759
+volatility (Indicator Volatility): 0.0198
+skewness (Distribution Skewness): -1.3976
+kurtosis (Distribution Kurtosis): 23.8260
+
+Parameter Sensitivity Analysis:
+                 mean  std
+param_str                 
+timeperiod:10  0.0126  NaN
+timeperiod:15  0.0148  NaN
+timeperiod:20  0.0175  NaN
+timeperiod:25  0.0203  NaN
